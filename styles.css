@@ -1,5 +1,9 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     margin: 0%;
+    font-family: 'Roboto';
 }
 
 header {
@@ -9,6 +13,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 10px 100px;
     color: #F3F3F3;
 }
 
@@ -20,6 +25,16 @@ nav li {
     list-style: none;
     display: inline;
     margin: 20px;
+}
+
+button {
+    background-color: #A50104;
+    color: #F3F3F3;
+    width: 150px;
+    height:40px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-color: #F3F3F3;
 }
 
 section {
@@ -37,15 +52,9 @@ footer {
     width: 100%;
 }
 
-footer p {
-    font-size: 20px;
-}
-
 /* Class */
 .top {
     align-items: center;
-    margin-top: 40px;
-    margin-left: 200px;
 }
 
 .top h3 {
@@ -65,17 +74,17 @@ footer p {
 
 .navbar {
     float: right;
-    margin-right: 300px;
 }
 
 .intro {
-    width:300px;
+    width:500px;
 }
 
 .bottom {
-    display: flex;
-    gap: 100px;
-    margin: 50px 200px;
+    display: inline-flex;
+    align-items: center;
+    flex: 2 1 0%;
+    gap: 150px;
 }
 
 .one {
@@ -145,7 +154,6 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*width: 1000px;*/
     width: fit-content;
     gap: 150px;
     padding: 20px 160px;
@@ -160,15 +168,4 @@ footer p {
 .three p {
     margin-top: 2px;
 }
-
-.three button {
-    background-color: #A50104;
-    color: #F3F3F3;
-    width: 150px;
-    height:40px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    border-color: #F3F3F3;
-}
-
 
