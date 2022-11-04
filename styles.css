@@ -5,7 +5,10 @@ body {
 header {
     background-color: #250001;
     background-image: url(images/mushi_bg.jpg);
+    height: 520px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: #F3F3F3;
 }
 
@@ -13,12 +16,10 @@ header img {
     width: 500px;
 }
 
-nav {
-    display: flex;
-}
-
 nav li {
     list-style: none;
+    display: inline;
+    margin: 20px;
 }
 
 section {
@@ -41,10 +42,40 @@ footer p {
 }
 
 /* Class */
+.top {
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.top h3 {
+    display: inline-block;
+}
+
+.name {
+    display: inline-flex;
+    align-items: center;
+}
+
 .logo {
     width: 60px;
     height: 60px;
-    margin: 40px;
+    margin: 10px;
+}
+
+.navbar {
+    float: right;
+    margin-right: 300px;
+}
+
+.intro {
+    width:300px;
+}
+
+.bottom {
+    display: flex;
+    gap: 100px;
+    margin: 50px 200px;
 }
 
 .one {
