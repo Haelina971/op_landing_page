@@ -32,31 +32,17 @@ button {
 
 header {
     background-image: url(images/mushi_bg.jpg);
-    height: 520px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px 100px;
+    padding: 1em 13em;
     color: #F3F3F3;
 }
 
-header img {
-    width: 500px;
-}
-
-nav li {
-    list-style: none;
-    display: inline;
-    margin: 20px;
-}
-
-/* Class */
 .top {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-}
-
-.top h3 {
-    display: inline-block;
 }
 
 .name {
@@ -70,19 +56,25 @@ nav li {
     margin: 10px;
 }
 
-.navbar {
-    float: right;
-}
 
-.intro {
-    width:500px;
+nav li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
 }
 
 .bottom {
     display: inline-flex;
     align-items: center;
-    flex: 2 1 0%;
-    gap: 150px;
+    padding: 5em 1em;
+}
+
+.bottom button {
+    border: none;
+}
+
+.bottom img {
+    width: 400px;
 }
 
 /*Section One*/
