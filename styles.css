@@ -1,13 +1,23 @@
 /*Font*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
-    margin: 0%;
-    font-family: 'Roboto';
+* {
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    display: flex;
+}
+
+/*Header*/
+
 header {
-    background-color: #250001;
     background-image: url(images/mushi_bg.jpg);
     height: 520px;
     display: flex;
@@ -33,23 +43,9 @@ button {
     width: 150px;
     height:40px;
     padding: 5px 10px;
+    margin: 10px;
     border-radius: 10px;
     border-color: #F3F3F3;
-}
-
-section {
-    display: flex;
-}
-
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #250001;
-    color: #F3F3F3;
-    font-size: medium;
-    height: 100px;
-    width: 100%;
 }
 
 /* Class */
@@ -169,3 +165,12 @@ footer {
     margin-top: 2px;
 }
 
+/*Footer*/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #250001;
+    color: #F3F3F3;
+    padding: 3em 0;
+}
