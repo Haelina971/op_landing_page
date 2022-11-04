@@ -122,24 +122,17 @@ nav li {
 .two {
     background-color: #FCBA04;
     font-size: 36px;
-    height: 400px;
+    padding: 3.5em 12em;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
-.blockquote {
-    width: 500px;
-}
 .quote {
     font-style: italic;
-    margin: 1px;
 }
 
 .signature {
     font-weight: bolder;
-    margin: 1px;
-    text-align: right;
     float: right;
 }
 
