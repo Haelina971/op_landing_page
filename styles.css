@@ -41,7 +41,6 @@ header {
 
 .top {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -54,6 +53,10 @@ header {
     width: 60px;
     height: 60px;
     margin: 10px;
+}
+
+nav {
+    margin-left: auto;
 }
 
 
