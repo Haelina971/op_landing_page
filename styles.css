@@ -64,9 +64,10 @@ nav li {
 }
 
 .bottom {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     padding: 5em 1em;
+    gap: 10em;
 }
 
 .bottom button {
@@ -74,7 +75,7 @@ nav li {
 }
 
 .bottom img {
-    width: 400px;
+    width: 30em;
 }
 
 /*Section One*/
