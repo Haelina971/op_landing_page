@@ -28,6 +28,12 @@ button {
     border-color: #F3F3F3;
 }
 
+a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+
 /*Header*/
 
 header {
@@ -106,7 +112,7 @@ nav li {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 0.6em;
+    gap: 0.7em;
     max-width: 200px;
 }
 
@@ -115,6 +121,11 @@ nav li {
     height: 200px;
     border: 5px solid #A50104;
     border-radius: 40px;
+}
+
+.subscribers p {
+    text-align: left;
+    padding-left: 1em;
 }
 
 /*Section Two*/
